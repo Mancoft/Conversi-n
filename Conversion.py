@@ -31,6 +31,18 @@ match x:
         S = C * 9 / 5 + F 
         S = round(S,2)
         print (S ,"F")
+    case "5":
+            print("HP a Kw")
+            C = float(input("Pon los Celcius aqui, debes poner . y no , "))
+            S = C / 0,74557
+            S = round(S,2)
+            print (S ,"Kw")
+    case "6":
+                print("kw a HP")
+                C = float(input("Pon los Celcius aqui, debes poner . y no , "))
+                S = C * 0,74557
+                S = round(S,2)
+                print (S ,"HP")
     case _:
         print("Incorrecto")
         
